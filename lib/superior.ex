@@ -48,7 +48,6 @@ defmodule Superior do
       { ["Ace of Spades"], _ } -> { ["Game Over"], Superior.shuffle(deck) }
       { hand, deck } -> { hand, deck }
     end
-
   end
 
 end
